@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.box h1 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.display {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.display img{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#generatePassword{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: red;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+#passwordDisplay{
+    width: 30rem;
+    height: 40px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.x {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.x input{
+    background-color: rgb(134, 133, 133);
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.x > img{
+     background-color: rgb(134, 133, 133);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    cursor: pointer;
+}
